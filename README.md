@@ -7,7 +7,7 @@ This repository contains essential scripts used for processing, filtering, and c
 ## Repository Contents
 
 ### 1. `tls_separate.py`
-Performs wood-leaf classification on TLS `.las` files using the [TLSeparation]([https://github.com/ekalinicheva/TLSeparation](https://tlseparation.github.io/documentation/) algorithm.
+Performs wood-leaf classification on TLS `.las` files using the [TLSeparation]([https://github.com/ekalinicheva/TLSeparation](https://tlseparation.github.io/documentation/)) algorithm.
 
 - **Input:** `.las` point cloud files of individual trees
 - **Output:** Text files containing point coordinates and wood-leaf classification labels
