@@ -1,6 +1,4 @@
-Here is a suggested `README.md` file for your GitHub repository, based on the provided code and purpose:
 
----
 
 # TLS-ALS Forest Tree Dataset Tools
 
