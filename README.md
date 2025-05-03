@@ -42,7 +42,7 @@ A MATLAB script using the TreeQSM method to compute volume from classified TLS d
 - `numpy`
 - `scikit-learn`
 - `laspy`
-- `tlseparation` (install from source: https://github.com/ekalinicheva/TLSeparation)
+- `tlseparation` (install from source: [https://github.com/ekalinicheva/TLSeparation](https://github.com/ekalinicheva/TLSeparation](https://tlseparation.github.io/documentation/))
 - MATLAB (for TreeQSM-based volume estimation)
 
 ## Applications
