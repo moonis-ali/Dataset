@@ -3,7 +3,7 @@ clear all;
 create_input;
 
 % Specify the directory path
-directoryPath = '/home/moonis/Haryana_data/ITS/data/filtered/Plot_02/improved_3';
+directoryPath = 'path/to/your/folder/containing/input/files';
 
 % Get a list of all files in the directory
 fileList = dir(fullfile(directoryPath, '*.txt'));
