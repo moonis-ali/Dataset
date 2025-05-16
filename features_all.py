@@ -79,8 +79,8 @@ def process_files(input_folder, output_folder):
         print(f"Processing {las_file} | Progress: {progress_percentage:.2f}%")
 
 # Specify input and output folders
-input_folder = '/home/moonis/Haryana_data/ITS/data/data/Plot_04'
-output_folder = '/home/moonis/Haryana_data/ITS/data/features_calculated/Plot_04'
+input_folder = 'path/folder/containing/files'
+output_folder = 'path/output/folder'
 
 # Process all files in the input folder and save output in the output folder
 process_files(input_folder, output_folder)
