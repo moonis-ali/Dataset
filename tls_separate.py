@@ -5,8 +5,8 @@ import tlseparation
 from numpy import savetxt
 
 # Directory paths
-input_directory = "/home/moonis/Haryana_data/ITS/data/data/Plot_05"
-output_directory = "/home/moonis/Haryana_data/ITS/data/tlseparate/Plot_05"
+input_directory = "path/to/your/input_directory"
+output_directory = "path/to/your/output_directory"
 
 # Ensure the output directory exists, create it if necessary
 os.makedirs(output_directory, exist_ok=True)
