@@ -96,10 +96,10 @@ if __name__ == "__main__":
     start = time.time()
     
     # Specify input and output folders
-    input_folder = '/home/moonis/Haryana_data/ITS/data/features_calculated/Plot_04'
-    output_folder = '/home/moonis/Haryana_data/ITS/data/classified/Plot_04'
-    feature_indices_filepath = '/home/moonis/Haryana_data/ITS/FEATURE_INDEX.txt'
-    model_filepath = '/home/moonis/Haryana_data/ITS/t+w+g_80.pkl'
+    input_folder = 'path/to/your/folder/containing/input/files'
+    output_folder = 'path/to/your/output/folder'
+    feature_indices_filepath = 'path/to/your/file/containing/FEATURE_INDEX.txt/file'
+    model_filepath = 'path/to/your/RF_model'
 
     # Classify all files in the input folder and save the results in the output folder
     classify_all_files(input_folder, output_folder, feature_indices_filepath, model_filepath)
